@@ -8,7 +8,8 @@ void main() => runApp(
   MaterialApp(
     initialRoute: '/',
     routes: {
-      '/':(context)=>Home(),
+      '/':(context)=>LoadingScreen(),
+      '/home':(context)=>Home(),
       '/location':(context)=>SelectLocation(),
     },
   )
